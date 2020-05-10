@@ -1,0 +1,111 @@
+import React from "react";
+import styles from "./index.less";
+import { Statistic, Row, Col, Button, Card } from "antd";
+
+export default () => (
+  <div className={styles.container}>
+    <div id="components-statistic-demo-basic">
+      <Row gutter={16}>
+        <Col xs={8} sm={16} md={24} lg={32}>
+          <Card.Grid>
+            <Statistic
+              title="机房温度"
+              value={"34℃"}
+            />
+          </Card.Grid>
+          <Card.Grid>
+            <Statistic
+              title="服务器在线时间"
+              value={"2天8小时24分钟"}
+            />
+          </Card.Grid>
+          <Card.Grid>
+            <Statistic
+              title="云桌面使用数量"
+              value={"50/50/50/50"}
+            />
+          </Card.Grid>
+          <Card.Grid>
+            <Statistic
+              title="云桌面管理软件授权"
+              value={"√"}
+            />
+          </Card.Grid>
+          <Card.Grid>
+            <Statistic
+              title="存储节点联通情况"
+              value={"NFS√/CEPH√"}
+            />
+          </Card.Grid>
+          <Card.Grid>
+            <Statistic
+              title="ImagePullBackErr/PodErr"
+              value={"3/50"}
+            />
+          </Card.Grid>
+          <Card.Grid>
+            <Statistic
+              title="容器云Nodes健康"
+              value={"Master:3/Slave:3"}
+            />
+          </Card.Grid>
+          <Card.Grid>
+            <Statistic
+              title="Harbor在线状况"
+              value={"√"}
+            />
+          </Card.Grid>
+          <Card.Grid>
+            <Statistic
+              title="桌面管理功能"
+              value={"√"}
+            />
+          </Card.Grid>
+          <Card.Grid>
+            <Statistic
+              title="GPU使用模式"
+              value={"渲染:50/计算:200"}
+            />
+          </Card.Grid>
+          
+          <Card.Grid>
+            <Statistic
+              title="外网联通节点"
+              value={"Kubernetes-Slave"}
+            />
+          </Card.Grid>
+          <Card.Grid>
+            <Statistic
+              title="机房外网联通情况"
+              value={"√"}
+            />
+          </Card.Grid>
+          <Card.Grid>
+            <Statistic
+              title="关灯情况"
+              value={"√|√|√|√"}
+            />
+          </Card.Grid>
+          <Card.Grid>
+            <Statistic
+              title="教室人数统计"
+              value={"50/50/50/50"}
+            />
+          </Card.Grid>
+          <Card.Grid>
+            <Statistic
+              title="关窗情况"
+              value={"√|√|√|√"}
+            />
+          </Card.Grid>
+          <Card.Grid>
+            <Statistic
+              title="开门情况"
+              value={"√|√|√|√"}
+            />
+          </Card.Grid>
+        </Col>
+      </Row>
+    </div>
+  </div>
+);
