@@ -176,17 +176,19 @@ export default () => {
     },
   ];
   return (
-    <PageHeaderWrapper content="这是一个伟大的项目" >
+    // <PageHeaderWrapper content="格物云基首页" >
+    <div>
       <Card
         style={{
           marginBottom: 24,
         }}
       >
         <Typography>
-          <Title>Introduction</Title>
+          <Title>行业分析</Title>
           <Paragraph>
-            有一天我在想, 我做过的东西要用什么展示出来, 不如做一个企业中台级的开发能力吧. 就叫他<Text strong>格物云基</Text>了, 我觉得它会慢慢成长, 告诉别人我作为软件架构师的才华. 不如一个个做出来
-    </Paragraph>
+          怎样理解行业发展?我认为在低成本方案时使用Serverless,规模大时使用多云架构,将为客户提供有利的方案.如何低成本或大规模使用时优秀的成本模型,将深刻改变信息技术的应用.
+          基于公有云,我们尝试构建了中国的Salesforces,提供了有竞争力的云计算技术的商业应用方案.
+          </Paragraph>
         </Typography>
       </Card>
 
@@ -249,8 +251,8 @@ export default () => {
           </TabPane>
         </Tabs>
       </Card>
-      
-    </PageHeaderWrapper>
+  </div>
+    // </PageHeaderWrapper>
 
   );
 };

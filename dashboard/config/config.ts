@@ -113,11 +113,6 @@ export default {
               component:'./introduction'
             },
             {
-              name: '机房工作台',
-              path: '/serverdash',
-              component: './serverdash',
-            },
-            {
               name: '容器云',
               path: './container',
               routes:[
@@ -136,7 +131,6 @@ export default {
                 {
                   name:'容器云',
                   path:'./k8s',
-                  component:'./k8s'
                 },
                 {
                   name:'微服务',
