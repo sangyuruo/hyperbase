@@ -30,6 +30,7 @@ export default () => {
             <Card
               bodyStyle={{
                 padding: 0,
+                height:100
               }}
               bordered={false}
             >
